@@ -48,16 +48,6 @@
 			path = "AvQueuePlayer test";
 			sourceTree = "<group>";
 		};
-		9FE1F89A2EB33BE7004614BA /* AvQueuePlayer testTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "AvQueuePlayer testTests";
-			sourceTree = "<group>";
-		};
-		9FE1F8A42EB33BE7004614BA /* AvQueuePlayer testUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "AvQueuePlayer testUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				9FE1F8832EB33BE5004614BA /* AvQueuePlayer test */,
-				9FE1F89A2EB33BE7004614BA /* AvQueuePlayer testTests */,
-				9FE1F8A42EB33BE7004614BA /* AvQueuePlayer testUITests */,
 				9FE1F8822EB33BE5004614BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				9FE1F8992EB33BE7004614BA /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9FE1F89A2EB33BE7004614BA /* AvQueuePlayer testTests */,
-			);
 			name = "AvQueuePlayer testTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				9FE1F8A32EB33BE7004614BA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9FE1F8A42EB33BE7004614BA /* AvQueuePlayer testUITests */,
 			);
 			name = "AvQueuePlayer testUITests";
 			packageProductDependencies = (
@@ -293,7 +275,6 @@
 				INFOPLIST_FILE = "AvQueuePlayer test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +301,6 @@
 				INFOPLIST_FILE = "AvQueuePlayer test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
